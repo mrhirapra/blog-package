@@ -1,0 +1,61 @@
+// {
+//     "compilerOptions": {
+//         "target": "ESNext",
+//         "module": "ESNext",
+//         "lib": [
+//             "DOM",
+//             "DOM.Iterable",
+//             "ESNext"
+//         ],
+//         "declaration": true,
+//         "declarationMap": true,
+//         "sourceMap": true,
+//         "strict": true,
+//         "moduleResolution": "node",
+//         "esModuleInterop": true,
+//         "allowSyntheticDefaultImports": true,
+//         "skipLibCheck": true,
+//         "forceConsistentCasingInFileNames": true,
+//         "jsx": "react-jsx",
+//         "baseUrl": "./src",
+//         "paths": {
+//             "@client/*": [
+//                 "client/*"
+//             ],
+//             "@server/*": [
+//                 "server/*"
+//             ],
+//             "@shared/*": [
+//                 "shared/*"
+//             ]
+//         }
+//     },
+//     "include": [
+//         "src/**/*",
+//         "src/**/*.css",
+//     ],
+//     "exclude": [
+//         "node_modules",
+//         "dist"
+//     ]
+// }
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@client/*": ["client/*"],
+      "@server/*": ["server/*"],
+      "@shared/*": ["shared/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
